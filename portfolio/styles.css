@@ -340,37 +340,6 @@ a {
   font-weight: 600;
 }
 
-/* ---------- Skills ---------- */
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  list-style: none;
-}
-
-.skills li {
-  padding: 8px 16px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  background: var(--surface);
-}
-
-.skill-groups {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 28px;
-}
-
-.skill-group h3 {
-  font-size: 1rem;
-  margin-bottom: 12px;
-}
-
-.skill-group .skills li {
-  font-size: 0.9rem;
-  padding: 6px 12px;
-}
-
 /* ---------- Education ---------- */
 .edu-grid {
   display: grid;
@@ -461,10 +430,6 @@ a {
   }
 
   .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .skill-groups {
     grid-template-columns: 1fr;
   }
 }
