@@ -6,7 +6,7 @@ A responsive personal portfolio site built with plain HTML, CSS and JavaScript. 
 
 ## Features
 
-- Sections for About, Projects, Skills and Contact
+- Sections for About, Experience, Projects, Education and Contact
 - Light and dark mode (follows your Mac's setting, with a toggle that remembers your choice)
 - Works on phones, with a collapsible menu
 - Project cards are generated from a simple list in `script.js`
@@ -39,7 +39,6 @@ Tip: the **Live Server** extension in VS Code reloads the page automatically eve
 | ---- | ----- |
 | Intro line, About text and quick facts | `index.html` (look for `TODO` comments) |
 | Projects | the `projects` list at the top of `script.js` |
-| Skills | the skills list in `index.html` |
 | Contact links (LinkedIn, email) | the Contact section in `index.html` |
 | Colours | the variables at the top of `styles.css` |
 
