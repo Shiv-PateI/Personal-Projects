@@ -145,7 +145,7 @@ a {
 /* ---------- Hero ---------- */
 .hero {
   padding-top: 120px;
-  padding-bottom: 100px;
+  padding-bottom: 48px;
 }
 
 .eyebrow {
@@ -199,8 +199,8 @@ a {
 
 /* ---------- Sections ---------- */
 .section {
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 48px;
+  padding-bottom: 16px;
 }
 
 .section h2 {
@@ -245,7 +245,7 @@ a {
 
 .role {
   position: relative;
-  padding: 0 0 36px 28px;
+  padding: 0 0 28px 28px;
 }
 
 .role::before {
@@ -421,7 +421,7 @@ a.cert-item:hover {
 .site-footer {
   text-align: center;
   color: var(--muted);
-  padding: 60px 16px 32px;
+  padding: 48px 16px 32px;
   font-size: 0.9rem;
 }
 
@@ -450,7 +450,7 @@ a.cert-item:hover {
 
   .hero {
     padding-top: 72px;
-    padding-bottom: 60px;
+    padding-bottom: 32px;
   }
 
   .about-grid {
