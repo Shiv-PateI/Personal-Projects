@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- Bump ?v= when you change styles.css or script.js so browsers load the new version -->
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
   <script>
     // Apply the saved theme before the page paints to avoid a flash
     try {
@@ -168,10 +168,32 @@
         <div class="card">
           <h3>Certifications</h3>
           <ul class="cert-list">
-            <li><span class="cert-code">AZ-900</span> Microsoft Azure Fundamentals</li>
-            <li><span class="cert-code">PL-300</span> Microsoft Power BI Data Analyst</li>
-            <li><span class="cert-code">ITIL 4</span> Foundation, IT Service Management</li>
-            <li><span class="cert-code">AZ-104</span> Microsoft Azure Administrator <em>(in progress)</em></li>
+            <!-- To link a certificate, change its <div class="cert-item"> to an <a> like AZ-900's -->
+            <li>
+              <a class="cert-item" href="https://www.credly.com/badges/11e72f33-741d-4700-97cc-42f145f81d9f" target="_blank" rel="noopener" aria-label="View AZ-900 Microsoft Azure Fundamentals badge on Credly">
+                <span class="cert-code">AZ-900</span>
+                <span class="cert-name">Microsoft Azure Fundamentals</span>
+                <span class="cert-action">View badge ↗</span>
+              </a>
+            </li>
+            <li>
+              <div class="cert-item">
+                <span class="cert-code">PL-300</span>
+                <span class="cert-name">Microsoft Power BI Data Analyst</span>
+              </div>
+            </li>
+            <li>
+              <div class="cert-item">
+                <span class="cert-code">ITIL 4</span>
+                <span class="cert-name">Foundation, IT Service Management</span>
+              </div>
+            </li>
+            <li>
+              <div class="cert-item">
+                <span class="cert-code">AZ-104</span>
+                <span class="cert-name">Microsoft Azure Administrator <em>(in progress)</em></span>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -192,6 +214,6 @@
     <p>© <span id="year"></span> Shiv Patel</p>
   </footer>
 
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>

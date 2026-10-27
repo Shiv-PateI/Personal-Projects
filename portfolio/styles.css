@@ -375,11 +375,39 @@ a {
   color: var(--muted);
 }
 
+.cert-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--muted);
+}
+
+a.cert-item {
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+a.cert-item:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
 .cert-code {
   display: inline-block;
   min-width: 64px;
   font-weight: 600;
   color: var(--accent);
+}
+
+.cert-action {
+  margin-left: auto;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
 }
 
 /* ---------- Contact / footer ---------- */
