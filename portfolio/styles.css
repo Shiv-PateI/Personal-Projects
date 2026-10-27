@@ -227,6 +227,65 @@ a {
   font-size: 0.85rem;
 }
 
+.about-text p + p {
+  margin-top: 16px;
+}
+
+.section-intro {
+  color: var(--muted);
+  margin: -12px 0 28px;
+}
+
+/* ---------- Experience timeline ---------- */
+.timeline {
+  list-style: none;
+  border-left: 2px solid var(--border);
+  margin-left: 6px;
+}
+
+.role {
+  position: relative;
+  padding: 0 0 36px 28px;
+}
+
+.role::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg);
+}
+
+.role-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 4px 16px;
+  margin-bottom: 10px;
+}
+
+.role-header h3 {
+  font-size: 1.15rem;
+}
+
+.dates {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.role ul {
+  padding-left: 18px;
+  color: var(--muted);
+  display: grid;
+  gap: 6px;
+}
+
 /* ---------- Projects ---------- */
 .project-grid {
   display: grid;
@@ -296,6 +355,64 @@ a {
   background: var(--surface);
 }
 
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+}
+
+.skill-group h3 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.skill-group .skills li {
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+
+/* ---------- Education ---------- */
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.card h3 {
+  margin-bottom: 6px;
+}
+
+.card p {
+  color: var(--muted);
+}
+
+.card p strong {
+  color: var(--text);
+}
+
+.cert-list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+  color: var(--muted);
+}
+
+.cert-code {
+  display: inline-block;
+  min-width: 64px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
 /* ---------- Contact / footer ---------- */
 .contact p {
   color: var(--muted);
@@ -344,6 +461,10 @@ a {
   }
 
   .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-groups {
     grid-template-columns: 1fr;
   }
 }
