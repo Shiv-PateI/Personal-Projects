@@ -2,7 +2,7 @@
 
 A responsive personal portfolio site built with plain HTML, CSS and JavaScript. No build tools or installs needed.
 
-**Live site:** https://shiv-patei.github.io/Personal-Projects/portfolio/
+**Live site:** https://shiv-patei.github.io/Shiv-Patel-About-Me/portfolio/
 
 ## Features
 

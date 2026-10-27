@@ -1,4 +1,4 @@
-# Personal-Projects
+# Shiv Patel - About Me
 
 A collection of mini projects I build to learn new languages, frameworks, and ideas. Each project lives in its own folder with its own README and setup instructions.
 
@@ -6,12 +6,12 @@ A collection of mini projects I build to learn new languages, frameworks, and id
 
 | Project | Description | Tech |
 | ------- | ----------- | ---- |
-| [Personal Portfolio](portfolio/) ([live site](https://shiv-patei.github.io/Personal-Projects/portfolio/)) | Responsive portfolio site with dark mode and project cards | HTML, CSS, JavaScript |
+| [Personal Portfolio](portfolio/) ([live site](https://shiv-patei.github.io/Shiv-Patel-About-Me/portfolio/)) | Responsive portfolio site with dark mode and project cards | HTML, CSS, JavaScript |
 
 ## Repository Structure
 
 ```
-Personal-Projects/
+Shiv-Patel-About-Me/
 ├── README.md
 └── <project-name>/
     ├── README.md   # What it does and how to run it
@@ -22,8 +22,8 @@ Personal-Projects/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Shiv-PateI/Personal-Projects.git
-   cd Personal-Projects
+   git clone https://github.com/Shiv-PateI/Shiv-Patel-About-Me.git
+   cd Shiv-Patel-About-Me
    ```
 2. Open it in VS Code (if `code` isn't found, press `Cmd+Shift+P` in VS Code and run **Shell Command: Install 'code' command in PATH**):
    ```bash

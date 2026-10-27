@@ -5,7 +5,7 @@ const projects = [
     title: "Personal Portfolio",
     description: "This site! A responsive portfolio with dark mode, built with plain HTML, CSS and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
-    code: "https://github.com/Shiv-PateI/Personal-Projects/tree/main/portfolio",
+    code: "https://github.com/Shiv-PateI/Shiv-Patel-About-Me/tree/main/portfolio",
     demo: "",
   },
 ];
