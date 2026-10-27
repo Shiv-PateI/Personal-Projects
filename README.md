@@ -6,7 +6,7 @@ A collection of mini projects I build to learn new languages, frameworks, and id
 
 | Project | Description | Tech |
 | ------- | ----------- | ---- |
-| [Personal Portfolio](portfolio/) | Responsive portfolio site with dark mode and project cards | HTML, CSS, JavaScript |
+| [Personal Portfolio](portfolio/) ([live site](https://shiv-patei.github.io/Personal-Projects/portfolio/)) | Responsive portfolio site with dark mode and project cards | HTML, CSS, JavaScript |
 
 ## Repository Structure
 

@@ -2,6 +2,8 @@
 
 A responsive personal portfolio site built with plain HTML, CSS and JavaScript. No build tools or installs needed.
 
+**Live site:** https://shiv-patei.github.io/Personal-Projects/portfolio/
+
 ## Features
 
 - Sections for About, Projects, Skills and Contact
@@ -41,9 +43,6 @@ Tip: the **Live Server** extension in VS Code reloads the page automatically eve
 | Contact links (LinkedIn, email) | the Contact section in `index.html` |
 | Colours | the variables at the top of `styles.css` |
 
-## Publish it free with GitHub Pages
+## Publishing
 
-1. On GitHub, open this repo and go to **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
-3. After a minute, the site will be live at
-   `https://shiv-patei.github.io/Personal-Projects/portfolio/`.
+The site is hosted on GitHub Pages from the `main` branch. Every push to `main` updates the live site within a minute or two. You can follow each deploy in the repo's **Actions** tab.
